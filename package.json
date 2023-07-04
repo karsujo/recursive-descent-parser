@@ -1,0 +1,12 @@
+{
+  "name": "descent_parser",
+  "version": "1.0.0",
+  "description": "A trivial recursive descent parser implemented in JavaScript",
+  "main": "descent_parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Karthik Shanmugam",
+  "license": "MIT"
+}
