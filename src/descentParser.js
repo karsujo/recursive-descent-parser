@@ -32,7 +32,6 @@ function lexer(str) { // scan tokens
             tokens.push(new Token(chunk[0], chunk[0]))
         }
     }
-    //console.log(tokens);
     return tokens;
 }
 
@@ -194,7 +193,6 @@ function exit_with_error(errMsg) {
 function run_program()
 {
   let ipStr= fs.readFileSync(0, 'utf8');
-  //console.log("FROM JS! : " + ipStr);
   let toks = lexer(ipStr);
   let p = new Parser(toks);
   let ast_output = JSON.stringify(p.parse());
